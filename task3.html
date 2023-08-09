@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Image gallery</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css"
+    />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <p><a href="index.html">Go back</a></p>
+
+    <!-- Add gallery items to this list -->
+    <!-- <ul class="gallery"></ul> -->
+    <ul class="js-goods"></ul>
+
+    <form action="submit" class="form-bayInstr">
+      <div class="div-selectForBay">
+        <label>
+          Ви вибрали інструмент id:
+          <input
+            type="text"
+            class="select-instr"
+            placeholder="ID вибраного інструмента"
+          />
+        </label>
+        <label>
+          кількість:
+          <input type="text" class="quantyti-instr" value="1" min="1" />
+        </label>
+      </div>
+      <button type="submit" class="btn">Купити</button>'
+      <p class="bayResult"></p>
+    </form>
+
+    <script src="./js/task3.js" type="module"></script>
+  </body>
+</html>
